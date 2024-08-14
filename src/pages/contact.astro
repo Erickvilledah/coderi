@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+import Title from "../components/Title.astro";
+import menu from "../collections/menu.json";
+
+const idPage = 3;
+const data = menu.find((item) => item.id === idPage);
+---
+
+<Layout title={data.name}>
+    <main>
+        <Breadcrumb id={idPage} />
+        <Title id={idPage} />
+    </main>
+</Layout>

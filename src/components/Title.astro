@@ -1,0 +1,39 @@
+---
+import menu from "../collections/menu.json";
+
+interface Props {
+    id: number;
+}
+const { id } = Astro.props;
+const data = menu.find((item) => item.id === id);
+---
+
+<div
+    class="hero min-h-80"
+    style="background-image: url(/assets/img/breadcumb/img-001.jpg);"
+>
+    <div class="hero-overlay bg-opacity-40"></div>
+    <div class="hero-content text-neutral-content text-center">
+        <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">{data.name}</h1>
+            <p class="mb-5">
+                <div class="breadcrumbs text-sm grid place-items-center">
+                    <ul>
+                        {
+                            data.route.map((d) => {
+                                return (
+                                    <li>
+                                        <a href={d.url}>
+                                            <i class="fa-regular fa-folder mr-1" />
+                                            {d.name}
+                                        </a>
+                                    </li>
+                                );
+                            })
+                        }
+                    </ul>
+                </div>
+            </p>
+        </div>
+    </div>
+</div>

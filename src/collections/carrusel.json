@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "url": "http://via.placeholder.com/1400x500",
+        "text": true,
+        "hero": {
+            "name": "Las series más populares de Netflix México que no podrás dejar de ver",
+            "description": "Breaking Bad, Game of Thrones, Squid Game y Euphoria son algunos de los títulos que forman parte de la época dorada de las series de televisión del nuevo milenio, las cuales se han caracterizado por ser impulsadas a través de diversas plataformas en la guerra por el streaming.",
+            "img": null,
+            "url": "/"
+        }
+    },
+    {
+        "id": 2,
+        "url": "http://via.placeholder.com/1400x500",
+        "text": false,
+        "hero": {
+            "name": null,
+            "description": null,
+            "img": null,
+            "url": null
+        }
+    },
+    {
+        "id": 3,
+        "url": "http://via.placeholder.com/1400x500",
+        "text": false,
+        "hero": {
+            "name": null,
+            "description": null,
+            "img": null,
+            "url": null
+        }
+    },
+    {
+        "id": 4,
+        "url": "http://via.placeholder.com/1400x500",
+        "text": false,
+        "hero": {
+            "name": null,
+            "description": null,
+            "img": null,
+            "url": null
+        }
+    },
+    {
+        "id": 5,
+        "url": "http://via.placeholder.com/1400x500",
+        "text": false,
+        "hero": {
+            "name": null,
+            "description": null,
+            "img": null,
+            "url": null
+        }
+    }
+]

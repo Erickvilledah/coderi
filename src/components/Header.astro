@@ -1,0 +1,149 @@
+---
+import information from "../collections/information.json";
+import social from "../collections/social.json";
+import menu from "../collections/menu.json";
+
+const BASE = import.meta.env.BASE_URL;
+---
+
+<div class="grid place-items-center bg-base-300">
+    <div class="text-center bg-base-300 hidden w-full md:block">
+        <div class="flex justify-around menu menu-horizontal text-xs">
+            <div>
+                <span class="mr-3"
+                    ><a
+                        href="https://wa.me/5215631144157?text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s+sobre+tus+servicios.%20Gracias."
+                    >
+                        <i class="fa-brands fa-whatsapp mr-1"></i>{
+                            information.phone
+                        }
+                    </a>
+                </span>
+                <span
+                    ><i class="fa-regular fa-envelope mr-1"></i>{
+                        information.email
+                    }</span
+                >
+            </div>
+            <div>
+                <span
+                    >{information.nameCompany}. Construyendo el mundo digital,
+                    un bit a la vez.</span
+                >
+            </div>
+            <div>
+                {
+                    social.map((s) => {
+                        return (
+                            <a href={s.url}>
+                                <i class={s.class} />
+                            </a>
+                        );
+                    })
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div id="header" class="grid place-items-center bg-base-100">
+    <div class="navbar bg-base-100 md:w-4/5">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div class="drawer lg:hidden">
+                    <input
+                        id="my-drawer"
+                        type="checkbox"
+                        class="drawer-toggle"
+                    />
+                    <div class="drawer-content">
+                        <label for="my-drawer" class="btn drawer-button">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                    </div>
+                    <div class="drawer-side" style="z-index: 1;">
+                        <label
+                            for="my-drawer"
+                            aria-label="close sidebar"
+                            class="drawer-overlay"
+                        >
+                        </label>
+                        <ul
+                            class="menu bg-base-200 text-base-content min-h-full w-60 p-4"
+                        >
+                            <li class="mb-5">
+                                <a href="#">
+                                    <i class="fa-solid fa-house"></i>
+                                    Menú
+                                </a>
+                            </li>
+                            {
+                                menu.map((m) => {
+                                    return (
+                                        <li class="p-1">
+                                            <a href=`${BASE}${m.url}`> {m.name}</a>
+                                        </li>
+                                    );
+                                })
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-ghost text-xl" href=`${BASE}/`>
+                <img
+                    class="hidden sm:block"
+                    src="/assets/img/logo.png"
+                    alt={information.nameCompany}
+                    title={information.nameCompany}
+                    style="width: 110px;"
+                />
+                <img
+                    class="block sm:hidden"
+                    src="/assets/img/logo-50x50.png"
+                    alt={information.nameCompany}
+                    title={information.nameCompany}
+                />
+            </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                {
+                    menu.map((m) => {
+                        return (
+                            <li>
+                                <a href=`${BASE}${m.url}`> {m.name}</a>
+                            </li>
+                        );
+                    })
+                }
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <label class="flex cursor-pointer gap-2">
+                <i class="fa-solid fa-sun mt-1"></i>
+                <input
+                    type="checkbox"
+                    value="synthwave"
+                    class="toggle theme-controller"
+                    id="theme-toggle"
+                />
+                <i class="fa-solid fa-moon mt-1"></i>
+            </label>
+        </div>
+    </div>
+</div>
+
+<style>
+    .headNoActive {
+        opacity: 0;
+        transition:
+            opacity 0.5s ease-in-out,
+            transform 0.5s ease-in-out;
+    }
+    .headActive {
+        position: sticky;
+        top: 0;
+        z-index: 99;
+        opacity: 1;
+    }
+</style>

@@ -1,0 +1,30 @@
+---
+import technologies from "../../collections/technologies.json";
+
+interface Props {
+  id: number;
+}
+const { id } = Astro.props;
+const data = technologies.find((item) => item.id === id);
+
+const BASE = import.meta.env.BASE_URL;
+---
+
+<div class="card card-compact bg-base-100 shadow-xl">
+  <figure>
+    <img src=`${BASE}${data.img}` alt={data.name} title={data.name} class="w-100 h-40"/>
+  </figure>
+  <div class="card-body">
+    <a href={data.url} target="_blank">
+      <h2 class="card-title">{data.name}</h2>
+    </a>
+    <p>
+      <p class="text-sm mb-1">Nivel de dominio:</p>
+      <progress class="progress progress-primary" value={data.level} max="100"
+      ></progress>
+      <div class="grid place-items-center">
+        <span>{data.level}%</span>
+      </div>
+    </p>
+  </div>
+</div>

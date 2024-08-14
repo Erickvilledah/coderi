@@ -1,0 +1,24 @@
+{
+  "name": "portafolio-erick",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.13.2",
+    "tailwindcss": "^3.4.9"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.10",
+    "gh": "^2.8.9",
+    "gh-pages": "^6.1.1",
+    "pages": "^0.0.16"
+  }
+}

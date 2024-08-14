@@ -1,0 +1,43 @@
+---
+import projects from "../../collections/projects.json";
+import Card from "./Card.astro";
+---
+
+<div class="grid place-items-center bg-base-200">
+    <div class="hero bg-base-200 py-20 md:w-4/5">
+        <div class="hero-content">
+            <div class="w-100">
+                <h1 class="text-5xl font-bold mb-5">MIS PROYECTOS</h1>
+                <p class="py-6 mb-5">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                    assumenda excepturi exercitationem quasi. In deleniti eaque
+                    aut repudiandae et a id nisi. Provident cupiditate
+                    voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                    exercitationem quasi. In deleniti eaque aut repudiandae et a
+                    id nisi.Provident cupiditate voluptatem et in. Quaerat
+                    fugiat ut assumenda excepturi exercitationem quasi. In
+                    deleniti eaque aut repudiandae et a id nisi.Provident
+                    cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                    excepturi exercitationem quasi. In deleniti eaque aut
+                    repudiandae et a id nisi.Provident cupiditate voluptatem et
+                    in. Quaerat fugiat ut assumenda excepturi exercitationem
+                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <div class="grid md:grid-cols-4 gap-4">
+                    {
+                        projects.map((p) => {
+                            return (
+                                <div class="mb-5">
+                                    <Card id={p.id} />
+                                </div>
+                            );
+                        })
+                    }
+                </div>
+                <p class="mt-5 grid place-items-end">
+                    <button class="btn btn-primary">Get Started</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

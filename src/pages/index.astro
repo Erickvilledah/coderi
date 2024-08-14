@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+import Carrusel from "../components/Carrusel.astro";
+import HeroAbout from "../components/HeroAbout.astro";
+import Stat from "../components/Stat.astro";
+import HeroProjects from "../components/projects/Hero.astro";
+import HeroTechnologies from "../components/technologies/Hero.astro";
+import menu from "../collections/menu.json";
+
+const idPage = 1;
+const data = menu.find((item) => item.id === idPage);
+---
+
+<Layout title={data.name}>
+	<main>
+		<Breadcrumb id={idPage} />
+		<Carrusel />
+		<HeroAbout />
+		<Stat />
+		<HeroProjects />
+		<HeroTechnologies />
+	</main>
+</Layout>
