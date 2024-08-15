@@ -1,3 +1,6 @@
+---
+const BASE = import.meta.env.BASE_URL; 
+---
 <div class="grid place-items-center bg-base-300">
     <div
         class="stats shadow flex flex-wrap bg-base-300 py-5 md:flex-nowrap lg:w-4/5"
@@ -23,7 +26,7 @@
                 <div class="avatar online">
                     <div class="w-16 rounded-full">
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                            src=`${BASE}/assets/img/logo.png`
                         />
                     </div>
                 </div>

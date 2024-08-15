@@ -11,31 +11,29 @@ const BASE = import.meta.env.BASE_URL;
         <div class="flex justify-around menu menu-horizontal text-xs">
             <div>
                 <span class="mr-3"
-                    ><a
-                        href="https://wa.me/5215631144157?text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s+sobre+tus+servicios.%20Gracias."
                     >
-                        <i class="fa-brands fa-whatsapp mr-1"></i>{
-                            information.phone
-                        }
+                    <a href="https://wa.me/5215631144157?text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s+sobre+tus+servicios.%20Gracias."
+                    target="_blank">
+                        <i class="fa-brands fa-whatsapp mr-1"></i>
+                        {information.phone}
                     </a>
                 </span>
                 <span
-                    ><i class="fa-regular fa-envelope mr-1"></i>{
-                        information.email
-                    }</span
-                >
+                    ><i class="fa-regular fa-envelope mr-1"></i>
+                    {information.email}
+                    </span>
             </div>
             <div>
                 <span
                     >{information.nameCompany}. Construyendo el mundo digital,
-                    un bit a la vez.</span
-                >
+                    un bit a la vez.
+                </span>
             </div>
             <div>
                 {
                     social.map((s) => {
                         return (
-                            <a href={s.url}>
+                            <a href={s.url} target="_blank">
                                 <i class={s.class} />
                             </a>
                         );
@@ -71,7 +69,7 @@ const BASE = import.meta.env.BASE_URL;
                             class="menu bg-base-200 text-base-content min-h-full w-60 p-4"
                         >
                             <li class="mb-5">
-                                <a href="#">
+                                <a href=`${BASE}/`>
                                     <i class="fa-solid fa-house"></i>
                                     Menú
                                 </a>
@@ -92,14 +90,14 @@ const BASE = import.meta.env.BASE_URL;
             <a class="btn btn-ghost text-xl" href=`${BASE}/`>
                 <img
                     class="hidden sm:block"
-                    src="/assets/img/logo.png"
+                    src=`${BASE}/assets/img/logo.png`
                     alt={information.nameCompany}
                     title={information.nameCompany}
                     style="width: 110px;"
                 />
                 <img
                     class="block sm:hidden"
-                    src="/assets/img/logo-50x50.png"
+                    src=`${BASE}/assets/img/logo-50x50.png`
                     alt={information.nameCompany}
                     title={information.nameCompany}
                 />

@@ -6,12 +6,10 @@ interface Props {
 }
 const { id } = Astro.props;
 const data = menu.find((item) => item.id === id);
+const BASE = import.meta.env.BASE_URL; 
 ---
 
-<div
-    class="hero min-h-80"
-    style="background-image: url(/assets/img/breadcumb/img-001.jpg);"
->
+<div id="hero" class="hero min-h-80">
     <div class="hero-overlay bg-opacity-40"></div>
     <div class="hero-content text-neutral-content text-center">
         <div class="max-w-md">
@@ -23,7 +21,7 @@ const data = menu.find((item) => item.id === id);
                             data.route.map((d) => {
                                 return (
                                     <li>
-                                        <a href={d.url}>
+                                        <a href=`${BASE}${d.url}`>
                                             <i class="fa-regular fa-folder mr-1" />
                                             {d.name}
                                         </a>
@@ -37,3 +35,9 @@ const data = menu.find((item) => item.id === id);
         </div>
     </div>
 </div>
+
+<script>
+    const BASE =  import.meta.env.BASE_URL; 
+    const hero = document.getElementById('hero');
+    hero.style.backgroundImage = `url(${BASE}/assets/img/breadcumb/img-001.jpg)`;
+  </script>

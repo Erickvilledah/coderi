@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "url": "http://via.placeholder.com/1400x500",
+        "url": "/assets/img/carruselHome/img-001.jpg",
         "text": true,
         "hero": {
             "name": "Las series más populares de Netflix México que no podrás dejar de ver",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "url": "http://via.placeholder.com/1400x500",
+        "url": "/assets/img/carruselHome/img-001.jpg",
         "text": false,
         "hero": {
             "name": null,
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "url": "http://via.placeholder.com/1400x500",
+        "url": "/assets/img/carruselHome/img-001.jpg",
         "text": false,
         "hero": {
             "name": null,
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "url": "http://via.placeholder.com/1400x500",
+        "url": "/assets/img/carruselHome/img-001.jpg",
         "text": false,
         "hero": {
             "name": null,
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "url": "http://via.placeholder.com/1400x500",
+        "url": "/assets/img/carruselHome/img-001.jpg",
         "text": false,
         "hero": {
             "name": null,

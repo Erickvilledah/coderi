@@ -15,7 +15,7 @@ const BASE = import.meta.env.BASE_URL;
             <a href=`${BASE}/`>
                 <img
                     class="max-w-60"
-                    src="/assets/img/logo.png"
+                    src=`${BASE}/assets/img/logo.png`
                     alt={information.nameCompany}
                     title={information.nameCompany}
                 />
@@ -52,7 +52,7 @@ const BASE = import.meta.env.BASE_URL;
             {
                 social.map((s) => {
                     return (
-                        <a class="link link-hover" href={s.url}>
+                        <a class="link link-hover" href={s.url} target="_blank">
                             <i class={s.class} />
                             {s.name}
                         </a>
@@ -68,7 +68,7 @@ const BASE = import.meta.env.BASE_URL;
     <aside class="grid-flow-col items-center">
         <a href=`${BASE}/`>
             <img
-                src="http://via.placeholder.com/50x50"
+                src=`${BASE}/assets/img/logo-50x50.png`
                 alt={information.nameCompany}
                 title={information.nameCompany}
             />
@@ -85,7 +85,7 @@ const BASE = import.meta.env.BASE_URL;
             {
                 social.map((s) => {
                     return (
-                        <a href={s.url}>
+                        <a href={s.url} target="_blank">
                             <i class={s.class} style="scale: 1.5;" />
                         </a>
                     );
