@@ -3,6 +3,9 @@ import Layout from "../layouts/Layout.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
 import Title from "../components/Title.astro";
 import menu from "../collections/menu.json";
+import HeroAbout from "../components/HeroAbout.astro";
+import HeroEducation from "../components/dates/Hero.astro";
+import HeroTechnologies from "../components/technologies/Hero.astro";
 
 const idPage = 2;
 const data = menu.find((item) => item.id === idPage);
@@ -12,5 +15,10 @@ const data = menu.find((item) => item.id === idPage);
 	<main>
 		<Breadcrumb id={idPage} />
 		<Title id={idPage} />
+		<HeroAbout id={idPage} />
+		<HeroEducation />
+		<div id="tecnologies">
+			<HeroTechnologies id={idPage} />
+		</div>
 	</main>
 </Layout>

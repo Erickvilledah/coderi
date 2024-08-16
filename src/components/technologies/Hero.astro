@@ -1,6 +1,11 @@
 ---
 import technologies from "../../collections/technologies.json";
 import Card from "../technologies/Card.astro";
+
+interface Props {
+    id: number;
+}
+const { id } = Astro.props;
 ---
 
 <div class="grid place-items-center bg-base-200">
@@ -23,17 +28,33 @@ import Card from "../technologies/Card.astro";
                     {
                         technologies.map((t, index) => {
                             return (
-                                <div>{index <= 7 && <Card id={t.id} />}</div>
+                                <>
+                                    {id == 1 && (
+                                        <div>
+                                            {index <= 7 && <Card id={t.id} />}
+                                        </div>
+                                    )}
+                                    {id == 2 && (
+                                        <div>
+                                            <Card id={t.id} />
+                                        </div>
+                                    )}
+                                </>
                             );
                         })
                     }
                 </div>
-                <p class="grid place-items-end">
-                    <a href="/about">
-                        <button class="btn btn-primary">Ver todo el stak</button
-                        >
-                    </a>
-                </p>
+                {
+                    id == 1 && (
+                        <p class="grid place-items-end">
+                            <a href="/about#tecnologies">
+                                <button class="btn btn-primary">
+                                    Ver todo el stak
+                                </button>
+                            </a>
+                        </p>
+                    )
+                }
             </div>
         </div>
     </div>

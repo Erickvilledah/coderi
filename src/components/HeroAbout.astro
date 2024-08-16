@@ -1,4 +1,8 @@
 ---
+interface Props {
+    id: number;
+}
+const { id } = Astro.props;
 const BASE = "";
 ---
 
@@ -6,7 +10,7 @@ const BASE = "";
     <div class="hero bg-base-200 py-20 md:w-4/5">
         <div class="hero-content">
             <div>
-                <h1 class="text-5xl font-bold mb-5">SOBRE MI SITIO</h1>
+                <h1 class="text-5xl font-bold mb-5">MI SITIO WEB</h1>
                 <p class="py-6">
                     Hola, mi nombre es Erick. Soy un desarrollador especializado
                     principalmente en frontend, aunque también tengo
@@ -21,9 +25,11 @@ const BASE = "";
                 <p class="pb-10">
                     Te invito a visitar mi sitio web, donde podrás conocer más sobre mi trayectoria en este fascinante mundo digital.
                 </p>
-                <a href=`${BASE}/about`>
-                    <button class="btn btn-primary">Más información</button>
-                </a>
+                {id == 1 && (
+                    <a href=`${BASE}/about`>
+                        <button class="btn btn-primary">Más información</button>
+                    </a>
+                )}
             </div>
         </div>
     </div>

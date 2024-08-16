@@ -1,0 +1,52 @@
+---
+import education from "../../collections/education.json";
+import Collapse from "./Collapse.astro";
+---
+
+<div class="grid place-items-center bg-base-200">
+    <div class="hero bg-base-200 pb-20 md:w-4/5">
+        <div class="hero-content">
+            <div class="w-100">
+                <h1 class="text-5xl font-bold mb-5">EDUCACIÓN</h1>
+                <p class="py-6 mb-5">
+                    Soy un desarrollador web con pasión por crear experiencias
+                    digitales innovadoras. A lo largo de mi carrera, he
+                    adquirido un sólido conocimiento en una variedad de
+                    tecnologías. Mi experiencia me permite abordar proyectos de
+                    diversa complejidad, desde el desarrollo frontend hasta el
+                    backend, siempre buscando soluciones eficientes y
+                    escalables.
+                </p>
+                <div>
+                    <ul class="timeline timeline-vertical">
+                        {
+                            education.map((e) => {
+                                return (
+                                    <li>
+                                        <div class="timeline-start">{e.dateF}</div>
+                                        <div class="timeline-middle">
+                                            <i class="fa-solid fa-circle-check" />
+                                        </div>
+                                        <div class="timeline-end timeline-box">
+                                           {e.name}
+                                        </div>
+                                        <hr />
+                                    </li>
+                                );
+                            })
+                        }
+                    </ul>
+                </div>
+                {
+                    education.map((e) => {
+                        return (
+                            <div id=`collapse${e.id}`>
+                                <Collapse id={e.id}/>
+                            </div>
+                        );
+                    })
+                }
+            </div>
+        </div>
+    </div>
+</div>

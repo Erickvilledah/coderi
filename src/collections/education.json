@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Escuela primaria Hefrain Huerta",
+        "description": "dfnj kf  df jb f dsf df d fds fhs df hf svdfh dsf hsf b f fvsdvhfd fdshfs dfb dhfsdf j f",
+        "img": "",
+        "degree": "Primaria",
+        "dateS": "2006",
+        "dateF": "2012"
+    },
+    {
+        "id": 2,
+        "name": "Escuela secundaria tecnica",
+        "description": "lorem dfbd hdfdmn f",
+        "img": "",
+        "degree": "Primaria",
+        "dateS": "2012",
+        "dateF": "2015"
+    }
+]
