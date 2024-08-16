@@ -6,13 +6,17 @@ interface Props {
 }
 const { id } = Astro.props;
 const data = technologies.find((item) => item.id === id);
-
 const BASE = "";
 ---
 
-<div class="card card-compact bg-base-100 shadow-xl">
+<div class="card card-compact bg-base-100 shadow-xl mb-5">
   <figure>
-    <img src=`${BASE}${data.img}` alt={data.name} title={data.name} class="w-100 h-40"/>
+    <img
+      src=`${BASE}${data.img}`
+      alt={data.name}
+      title={data.name}
+      class="w-100 h-40"
+    />
   </figure>
   <div class="card-body">
     <a href={data.url} target="_blank">
@@ -20,9 +24,8 @@ const BASE = "";
     </a>
     <p>
       <p class="text-sm mb-1">Nivel de dominio:</p>
-      <progress class="progress progress-primary" value={data.level} max="100"
-      ></progress>
-      <div class="grid place-items-center">
+      <progress class="progress progress-primary" value={data.level} max="100"></progress>
+      <div class="grid place-items-center text-sm">
         <span>{data.level}%</span>
       </div>
     </p>

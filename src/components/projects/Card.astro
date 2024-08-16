@@ -13,13 +13,81 @@ const BASE = "";
 
 <div class="card card-compact bg-base-100 shadow-xl">
   <figure onclick=`modal_${data.id}.showModal()`>
-    <img src=`${BASE}${data.img}` alt={data.name} title={data.name} class="w-100 h-40" />
+    <img
+      src=`${BASE}${data.img}`
+      alt={data.name}
+      title={data.name}
+      class="w-100 h-40"
+    />
   </figure>
   <div class="card-body">
     <a href={data.url} target="_blank">
       <h2 class="card-title">{data.name}</h2>
     </a>
     <p class="hidden md:block">{data.description}</p>
+    <div class="py-2">
+      <p>
+        Tags:
+        {
+          data.tags.map((d) => {
+            return (
+              <>
+                {d === "HTML" && (
+                  <span class="badge badge-danger badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "CSS" && (
+                  <span class="badge badge-info badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "JS" && (
+                  <span class="badge badge-warning badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "PHP" && (
+                  <span class="badge badge-secondary badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "LARAVEL" && (
+                  <span class="badge badge-danger badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "VUE" && (
+                  <span class="badge badge-success badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "ASTRO" && (
+                  <span class="badge badge-warning badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "BOOTSTRAP" && (
+                  <span class="badge badge-secondary badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "TAILWIND" && (
+                  <span class="badge badge-info badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "POSTGRESQL" && (
+                  <span class="badge badge-info badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+              </>
+            );
+          })
+        }
+      </p>
+    </div>
     <div class="card-actions justify-end">
       <button
         class="btn btn-primary btn-sm"
@@ -59,9 +127,58 @@ const BASE = "";
         {
           data.tags.map((d) => {
             return (
-              <span class="badge badge-warning badge-outline text-xs mr-1">
-                {d}
-              </span>
+              <>
+                {d === "HTML" && (
+                  <span class="badge badge-danger badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "CSS" && (
+                  <span class="badge badge-info badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "JS" && (
+                  <span class="badge badge-warning badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "PHP" && (
+                  <span class="badge badge-secondary badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "LARAVEL" && (
+                  <span class="badge badge-danger badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "VUE" && (
+                  <span class="badge badge-success badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "ASTRO" && (
+                  <span class="badge badge-warning badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "BOOTSTRAP" && (
+                  <span class="badge badge-secondary badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "TAILWIND" && (
+                  <span class="badge badge-info badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+                {d === "POSTGRESQL" && (
+                  <span class="badge badge-info badge-outline text-xs mr-1">
+                    {d}
+                  </span>
+                )}
+              </>
             );
           })
         }
@@ -69,7 +186,18 @@ const BASE = "";
     </div>
     <div class="grid justify-items-end mt-5">
       <p>
-        <a href={data.url} class="link link-primary">Visitar sitio</a>
+        {
+          data.url != null && (
+            <a href={data.url}>
+              <div class="badge badge-primary">Visitar sitio</div>
+            </a>
+          )
+        }
+        {
+          data.url == null && (
+            <div class="badge badge-neutral text-white">Sitio privado</div>
+          )
+        }
       </p>
     </div>
   </div>

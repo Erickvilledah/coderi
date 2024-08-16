@@ -1,8 +1,6 @@
 ---
 import technologies from "../../collections/technologies.json";
 import Card from "../technologies/Card.astro";
-
-var total = technologies.length;
 ---
 
 <div class="grid place-items-center bg-base-200">
@@ -10,7 +8,7 @@ var total = technologies.length;
         <div class="hero-content">
             <div class="w-100">
                 <h1 class="text-5xl font-bold mb-5">STACK TECNOLÓGICO</h1>
-                <p class="py-6 mb-5">
+                <p class="py-6 mb-10">
                     Soy un desarrollador web con pasión por crear experiencias
                     digitales innovadoras. A lo largo de mi carrera, he
                     adquirido un sólido conocimiento en una variedad de
@@ -19,19 +17,22 @@ var total = technologies.length;
                     backend, siempre buscando soluciones eficientes y
                     escalables.
                 </p>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div
+                    class="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-1 md:gap-y-3"
+                >
                     {
                         technologies.map((t, index) => {
                             return (
-                                <div class="mb-5">
-                                    <Card id={t.id} />
-                                </div>
+                                <div>{index <= 7 && <Card id={t.id} />}</div>
                             );
                         })
                     }
                 </div>
-                <p class="mt-5 grid place-items-end">
-                    <button class="btn btn-primary">Get Started</button>
+                <p class="grid place-items-end">
+                    <a href="/about">
+                        <button class="btn btn-primary">Ver todo el stak</button
+                        >
+                    </a>
                 </p>
             </div>
         </div>
