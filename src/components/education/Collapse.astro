@@ -1,0 +1,32 @@
+---
+import education from "../../collections/education.json";
+
+interface Props {
+    id: number;
+}
+const { id } = Astro.props;
+const data = education.find((item) => item.id === id);
+---
+
+<div
+    tabindex="0"
+    class="collapse collapse-arrow border-base-300 bg-base-200 border"
+>
+    <div class="collapse-title text-xl font-medium">
+        {data.name}
+    </div>
+    <div class="collapse-content">
+        <p class="md:px-10 py-5">{data.description}</p>
+        <ul class="md:px-10">
+            <li>
+                <i class="fa-solid fa-book mb-4 mr-2"></i>Fecha de ingreso: {data.dateS}
+            </li>
+            <li>
+                <i class="fa-solid fa-graduation-cap mr-2"></i>Fecha de egreso {data.dateF}
+            </li>
+        </ul>
+        <div class="my-5 md:m-10 grid place-items-center">
+            <img src={data.img} alt={data.name} title={data.name}>
+        </div>
+    </div>
+</div>

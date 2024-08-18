@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "url": "/assets/img/carruselHome/img-001.jpg",
+        "url": null,
         "text": true,
         "hero": {
-            "name": "Las series más populares de Netflix México que no podrás dejar de ver",
-            "description": "Breaking Bad, Game of Thrones, Squid Game y Euphoria son algunos de los títulos que forman parte de la época dorada de las series de televisión del nuevo milenio, las cuales se han caracterizado por ser impulsadas a través de diversas plataformas en la guerra por el streaming.",
+            "name": "Desarrollador web apasionado por crear experiencias digitales.",
+            "description": "Soy un desarrollador web que cree en el poder de las herramientas adecuadas para el trabajo. Utilizo el poder de lenguajes front-end como HTML, CSS y JavaScript para crear interfaces atractivas y funcionales.",
             "img": null,
-            "url": "/"
+            "url": "/about"
         }
     },
     {
         "id": 2,
-        "url": "/assets/img/carruselHome/img-001.jpg",
+        "url": "/assets/img/carruselHome/img-002.jpg",
         "text": false,
         "hero": {
             "name": null,
@@ -23,18 +23,18 @@
     },
     {
         "id": 3,
-        "url": "/assets/img/carruselHome/img-001.jpg",
-        "text": false,
+        "url": null,
+        "text": true,
         "hero": {
-            "name": null,
-            "description": null,
+            "name": "CODERI</>",
+            "description": "Además, me manejo con frameworks modernos como Astro o Vue.js para acelerar el desarrollo.  Para la lógica del servidor, puedo utilizar PHP, Python o JAVA, dependiendo de las necesidades del proyecto.",
             "img": null,
-            "url": null
+            "url": "/about"
         }
     },
     {
         "id": 4,
-        "url": "/assets/img/carruselHome/img-001.jpg",
+        "url": "/assets/img/carruselHome/img-003.jpg",
         "text": false,
         "hero": {
             "name": null,
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "url": "/assets/img/carruselHome/img-001.jpg",
+        "url": "/assets/img/carruselHome/img-004.jpg",
         "text": false,
         "hero": {
             "name": null,

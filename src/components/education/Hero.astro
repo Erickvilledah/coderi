@@ -17,7 +17,7 @@ import Collapse from "./Collapse.astro";
                     backend, siempre buscando soluciones eficientes y
                     escalables.
                 </p>
-                <div>
+                <div class="mb-10">
                     <ul class="timeline timeline-vertical">
                         {
                             education.map((e) => {
@@ -28,7 +28,7 @@ import Collapse from "./Collapse.astro";
                                             <i class="fa-solid fa-circle-check" />
                                         </div>
                                         <div class="timeline-end timeline-box">
-                                           {e.name}
+                                           {e.degree}
                                         </div>
                                         <hr />
                                     </li>
@@ -40,7 +40,7 @@ import Collapse from "./Collapse.astro";
                 {
                     education.map((e) => {
                         return (
-                            <div id=`collapse${e.id}`>
+                            <div id=`collapse${e.id}` class="mb-5">
                                 <Collapse id={e.id}/>
                             </div>
                         );

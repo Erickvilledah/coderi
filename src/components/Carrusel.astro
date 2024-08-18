@@ -9,10 +9,10 @@ const BASE = "";
     {
         carrusel.map((c) => {
             return (
-                <div id=`carrusel_${c.id}` class="carousel-item relative w-full">
+                <div id=`carrusel_${c.id}` class="carousel-item relative w-full h-100">
                     {!c.text && <img src=`${BASE}${c.url}` class="w-full" />}
                     {c.text && (
-                        <div id="heroHome" class="hero bg-base-200 md:py-20">
+                        <div id=`heroHome${c.id}` class="hero bg-base-200 md:py-20">
                             <div class="hero-content flex-col lg:flex-row-reverse">
                                 <img
                                     src=`${BASE}/assets/img/me/img-001.jpg`
@@ -44,6 +44,8 @@ const BASE = "";
 
 <script>
     const BASE =  "";
-    const hero = document.getElementById('heroHome');
-    hero.style.backgroundImage = `url(${BASE}/assets/img/carruselHome/img-001.jpg)`;
+    const hero1 = document.getElementById('heroHome1');
+    hero1.style.backgroundImage = `url(${BASE}/assets/img/carruselHome/img-001.jpg)`;
+    const hero2 = document.getElementById('heroHome3');
+    hero2.style.backgroundImage = `url(${BASE}/assets/img/carruselHome/img-001.jpg)`;
 </script>

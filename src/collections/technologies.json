@@ -3,77 +3,77 @@
 		"id": 1,
 		"name": "HTML",
 		"img": "/assets/img/tecnologies/html.png",
-		"level": 50,
+		"level": 80,
 		"url": "https://developer.mozilla.org/es/docs/Web/HTML"
 	},
 	{
 		"id": 2,
 		"name": "CSS",
 		"img": "/assets/img/tecnologies/css.png",
-		"level": 50,
+		"level": 80,
 		"url": "https://developer.mozilla.org/es/docs/Web/CSS"
 	},
 	{
 		"id": 3,
 		"name": "JavaScript",
 		"img": "/assets/img/tecnologies/js.png",
-		"level": 50,
+		"level": 60,
 		"url": "https://developer.mozilla.org/es/docs/Web/JavaScript"
 	},
 	{
 		"id": 4,
 		"name": "C",
 		"img": "/assets/img/tecnologies/c.png",
-		"level": 50,
+		"level": 60,
 		"url": "/"
 	},
 	{
 		"id": 5,
 		"name": "PHP",
 		"img": "/assets/img/tecnologies/php.png",
-		"level": 50,
+		"level": 80,
 		"url": "https://www.php.net/"
 	},
 	{
 		"id": 6,
 		"name": "Python",
 		"img": "/assets/img/tecnologies/python.png",
-		"level": 50,
+		"level": 60,
 		"url": "https://www.python.org/"
 	},
 	{
 		"id": 7,
 		"name": "JAVA",
 		"img": "/assets/img/tecnologies/java.png",
-		"level": 50,
+		"level": 30,
 		"url": "https://www.java.com/es/"
 	},
 	{
 		"id": 8,
 		"name": "ASTRO",
 		"img": "/assets/img/tecnologies/astro.png",
-		"level": 50,
+		"level": 40,
 		"url": "https://astro.build/"
 	},
 	{
 		"id": 9,
 		"name": "VUE",
 		"img": "/assets/img/tecnologies/vue.png",
-		"level": 50,
+		"level": 60,
 		"url": "https://vuejs.org/"
 	},
 	{
 		"id": 10,
 		"name": "LARAVEL",
 		"img": "/assets/img/tecnologies/laravel.png",
-		"level": 50,
+		"level": 40,
 		"url": "https://laravel.com/"
 	},
 	{
 		"id": 11,
 		"name": "Bootstrap",
 		"img": "/assets/img/tecnologies/bootstrap.png",
-		"level": 50,
+		"level": 80,
 		"url": "https://getbootstrap.com/"
 	},
 	{
@@ -87,21 +87,21 @@
 		"id": 13,
 		"name": "MySQL",
 		"img": "/assets/img/tecnologies/mysql.png",
-		"level": 50,
+		"level": 30,
 		"url": "https://www.mysql.com/"
 	},
 	{
 		"id": 14,
 		"name": "PostgreSQL",
 		"img": "/assets/img/tecnologies/postgresql.png",
-		"level": 50,
+		"level": 30,
 		"url": "https://www.postgresql.org/"
 	},
 	{
 		"id": 15,
 		"name": "GIT",
 		"img": "/assets/img/tecnologies/git.png",
-		"level": 50,
+		"level": 40,
 		"url": "https://git-scm.com/"
 	},
 	{
@@ -129,7 +129,7 @@
 		"id": 19,
 		"name": "Apache",
 		"img": "/assets/img/tecnologies/apache.png",
-		"level": 50,
+		"level": 40,
 		"url": "https://httpd.apache.org/"
 	}
 ]
