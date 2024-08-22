@@ -23,10 +23,21 @@ import Collapse from "./Collapse.astro";
                             education.map((e) => {
                                 return (
                                     <li>
-                                        <div class="timeline-start">{e.dateF}</div>
+                                        <div class="timeline-start mr-2">{e.dateF}</div>
                                         <div class="timeline-middle">
-                                            <i class="fa-solid fa-circle-check" />
-                                        </div>
+                                                {e.status === 1 && (
+                                                    <i
+                                                        class="fa-solid fa-circle-check"
+                                                        style="color: #03c200;"
+                                                    />
+                                                )}
+                                                {e.status === 2 && (
+                                                    <i
+                                                        class="fa-solid fa-hourglass-half"
+                                                        style="color: #FFD43B;"
+                                                    />
+                                                )}
+                                            </div>
                                         <div class="timeline-end timeline-box">
                                            {e.degree}
                                         </div>

@@ -12,7 +12,7 @@ const BASE = "";
 ---
 
 <div class="card card-compact bg-base-100 shadow-xl h-full">
-  <figure onclick=`modal_${data.id}.showModal()`>
+  <figure onclick=`modal_${data.id}.showModal()` class="bg-gray-800">
     <img
       src=`${BASE}${data.img}`
       alt={data.name}
@@ -138,7 +138,7 @@ const BASE = "";
       <p>
         {
           data.url != null && (
-            <a href={data.url}>
+            <a href={data.url} target="_blank">
               <div class="badge badge-primary">Visitar sitio</div>
             </a>
           )

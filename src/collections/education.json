@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Escuela Primaria 'Efrain Huerta'",
         "description": "Realicé mis estudios de educación primaria en la primaria 'Efrain Huerta', donde adquirí las bases sólidas en lenguaje, matemáticas y ciencias que me permitieron desarrollar habilidades fundamentales para mi crecimiento personal y profesional. Estos años fueron cruciales para desarrollar mi capacidad de trabajo en equipo y mi gusto por la resolución de problemas.",
+        "status": 1,
         "location": "Iztapalapa, Ciudad de México.",
         "img": "/assets/img/education/img_001.jpg",
         "degree": "Primaria (Nivel básico)",
@@ -13,6 +14,7 @@
         "id": 2,
         "name": "Escuela Secundaria Técnica, No. 95 'Cuitláhuac'",
         "description": "Durante mi etapa en la secundaria, tuve la oportunidad de participar en el taller de informática, donde adquirí sólidos conocimientos en tecnologías como Microsoft Office, o lenguajes de programación como HTML y CSS. Uno de los proyectos que más disfruté fue desarrollar un juego de aventuras en texto, donde tuve que aplicar mis conocimientos de programación lógica y estructuras de datos. Gracias a esta experiencia, descubrí mi pasión por la programación y decidí estudiar ingeniería en software.",
+        "status": 1,
         "location": "Tlahuac, Ciudad de México.",
         "img": "/assets/img/education/img_002.png",
         "degree": "Secundaria (Nivel básico)",
@@ -23,6 +25,7 @@
         "id": 3,
         "name": "Colegio de Ciencias y Humanidades, Plantel 'Oriente'",
         "description": "Durante mi etapa en el Colegio de Ciencias y Humanidades Oriente, consolidé mi formación académica y experimenté un crecimiento personal significativo. Las rigurosas materias y los diversos talleres me permitieron desarrollar habilidades de análisis, síntesis y resolución de problemas. El ambiente universitario del CCH me brindó la oportunidad de interactuar con personas de diversos orígenes y perspectivas, enriqueciendo mi visión del mundo.",
+        "status": 1,
         "location": "Iztacalco, Ciudad de México.",
         "img": "/assets/img/education/img_003.png",
         "degree": "Preparatoria (Nivel medio superior)",
@@ -33,10 +36,22 @@
         "id": 4,
         "name": "Facultad de Ingeniería",
         "description": "Mi experiencia en la Facultad de Ingeniería fue más allá de lo académico. La vida universitaria me permitió desarrollar habilidades de liderazgo, trabajo en equipo y gestión del tiempo a través de mi participación en algunas actividad extracurricular, por ejemplo: proyectos de investigación, concursos de diseño, asociaciones estudiantiles,etc. Además, tuve la oportunidad de realizar prácticas profesionales en el departamento de ciencias de la tierra, lo que me permitió poner en práctica mis conocimientos y establecer contactos en el sector.",
+        "status": 1,
         "location": "Coyoacan, Ciudad de México.",
         "img": "/assets/img/education/img_004.png",
         "degree": "Licenciatura (Nivel superior)",
         "dateS": "2018",
         "dateF": "2024"
+    },
+    {
+        "id": 5,
+        "name": "Diplomado Avanzado en Banca y Finanzas",
+        "description": "Mi experiencia en la Facultad de Ingeniería fue más allá de lo académico. La vida universitaria me permitió desarrollar habilidades de liderazgo, trabajo en equipo y gestión del tiempo a través de mi participación en algunas actividad extracurricular, por ejemplo: proyectos de investigación, concursos de diseño, asociaciones estudiantiles,etc. Además, tuve la oportunidad de realizar prácticas profesionales en el departamento de ciencias de la tierra, lo que me permitió poner en práctica mis conocimientos y establecer contactos en el sector.",
+        "status": 2,
+        "location": "En línea.",
+        "img": "/assets/img/education/img_005.png",
+        "degree": "Diplomado",
+        "dateS": "2024",
+        "dateF": "2025"
     }
 ]

@@ -1,0 +1,66 @@
+---
+import course from "../collections/course.json";
+---
+
+<div class="grid place-items-center bg-base-200">
+    <div class="hero bg-base-200 pb-20 md:w-4/5">
+        <div class="hero-content">
+            <div>
+                <h1 class="text-5xl font-bold mb-5">CURSOS</h1>
+                <p class="py-4">
+                    A lo largo de mi carrera, he invertido tiempo y esfuerzo en
+                    ampliar mis conocimientos en desarrollo web. Algunos de los
+                    cursos que he completado incluyen: HTML, CSS, JavaScript,
+                    GitHub, Astro, Vue, Laravel, y actualmente estoy
+                    profundizando en AWS. Esta formación continua me permite
+                    mantenerme actualizado en las últimas tecnologías y ofrecer
+                    soluciones innovadoras. Tambien me han permitido crear
+                    proyectos interesantes y me han abierto las puertas a nuevas
+                    oportunidades.
+                </p>
+                <p>
+                    <div class="py-10">
+                        <ul class="timeline timeline-vertical">
+                            {
+                                course.map((c) => {
+                                    return (
+                                        <li>
+                                            <div class="timeline-start mr-2">
+                                                <strong>{c.date}</strong> (
+                                                {c.time})
+                                            </div>
+                                            <div class="timeline-middle">
+                                                {c.status === 1 && (
+                                                    <i
+                                                        class="fa-solid fa-circle-check"
+                                                        style="color: #03c200;"
+                                                    />
+                                                )}
+                                                {c.status === 2 && (
+                                                    <i
+                                                        class="fa-solid fa-hourglass-half"
+                                                        style="color: #FFD43B;"
+                                                    />
+                                                )}
+                                            </div>
+
+                                            <div class="timeline-end timeline-box">
+                                                <div
+                                                    class="tooltip tooltip-right tooltip-primary"
+                                                    data-tip={c.mod}
+                                                >
+                                                    {c.name}
+                                                </div>
+                                            </div>
+                                            <hr />
+                                        </li>
+                                    );
+                                })
+                            }
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

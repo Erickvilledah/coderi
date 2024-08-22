@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Curso de HTML, JavaScript y CSS",
+        "status": 1,
+        "mod": "En línea",
+        "date": "2023",
+        "time": "3 meses"
+    },
+    {
+        "id": 2,
+        "name": "Curso de Git y GitHub básico",
+        "status": 1,
+        "mod": "En línea",
+        "date": "2023",
+        "time": "2 semanas"
+    },
+    {
+        "id": 3,
+        "name": "Curso de Git y GitHub avanzado",
+        "status": 1,
+        "mod": "En línea",
+        "date": "2023",
+        "time": "meses"
+    },
+    {
+        "id": 4,
+        "name": "Curso de framework ASTRO básico",
+        "status": 1,
+        "mod": "En línea",
+        "date": "2023",
+        "time": "meses"
+    },
+    {
+        "id": 5,
+        "name": "Curso de framework VUE",
+        "status": 1,
+        "mod": "En línea",
+        "date": "2024",
+        "time": "meses"
+    },
+    {
+        "id": 6,
+        "name": "Curso de framework LARAVEL",
+        "status": 1,
+        "mod": "En línea",
+        "date": "2024",
+        "time": "meses"
+    },
+    {
+        "id": 7,
+        "name": "Curso de framework ASTRO avanzado",
+        "status": 2,
+        "mod": "En línea",
+        "date": "2024",
+        "time": "3 semanas"
+    },
+    {
+        "id": 8,
+        "name": "Curso de framework DJANGO básico",
+        "status": 2,
+        "mod": "En línea",
+        "date": "2024",
+        "time": "2 meses"
+    },
+    {
+        "id": 9,
+        "name": "Curso de AWS básico",
+        "status": 2,
+        "mod": "En línea",
+        "date": "2024",
+        "time": "6 meses"
+    }
+]

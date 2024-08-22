@@ -7,6 +7,8 @@ import HeroAbout from "../components/HeroAbout.astro";
 import HeroEducation from "../components/education/Hero.astro";
 import HeroTechnologies from "../components/technologies/Hero.astro";
 import HeroExperience from "../components/HeroExperience.astro";
+import HeroCourse from "../components/HeroCourse.astro";
+
 
 const idPage = 2;
 const data = menu.find((item) => item.id === idPage);
@@ -19,6 +21,7 @@ const data = menu.find((item) => item.id === idPage);
 		<HeroAbout id={idPage} />
 		<HeroExperience />
 		<HeroEducation />
+		<HeroCourse />
 		<div id="tecnologies">
 			<HeroTechnologies id={idPage} />
 		</div>
