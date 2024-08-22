@@ -2,10 +2,10 @@
     {
         "id": 1,
         "name": "BHPBH",
-        "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
+        "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf",
         "img": "/assets/img/projects/bhpbh/logo.jpg",
         "url": "https://bhporelbienestarhumano.org/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags": ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "VUE", "LARAVEL", "POSTGRESQL"],
         "level": 100,
         "imgs": [
             {
@@ -36,7 +36,7 @@
         "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
         "img": "/assets/img/projects/coderi/logo.png",
         "url": "http://www.dict.unam.mx/LIRFFF/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags": ["HTML", "CSS", "JS", "ASTRO", "TAILWIND"],
         "level": 100,
         "imgs": [
             {
@@ -67,7 +67,7 @@
         "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
         "img": "/assets/img/projects/evosys/logo.png",
         "url": "https://www.evosys.com.mx/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags": ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "VUE", "LARAVEL", "SQLITE"],
         "level": 20,
         "imgs": [
             {
@@ -95,10 +95,10 @@
     {
         "id": 4,
         "name": "KARAMELKI",
-        "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
+        "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjfjbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjfjbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjfjbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjfjbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjfjbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf",
         "img": "/assets/img/projects/karamelki/logo.png",
         "url": "https://karamelki.com.mx/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags":  ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
         "level": 70,
         "imgs": [
             {
@@ -129,7 +129,7 @@
         "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
         "img": "/assets/img/projects/levitax/logo.png",
         "url": "https://levitax.mx/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags": ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
         "level": 50,
         "imgs": [
             {
@@ -160,7 +160,7 @@
         "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
         "img": "/assets/img/projects/lirfff/logo.png",
         "url": "http://www.dict.unam.mx/LIRFFF/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags": ["HTML", "CSS", "JS", "ASTRO", "TAILWIND"],
         "level": 100,
         "imgs": [
             {
@@ -191,7 +191,7 @@
         "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
         "img": "/assets/img/projects/tns/logo.png",
         "url": "https://tns-cy.com.mx/",
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags":  ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
         "level": 70,
         "imgs": [
             {
@@ -232,7 +232,7 @@
         "description": "jbbkdsjf sdb fbdsf sdbf ssfd fdddjf  sdbjf sdf j f",
         "img": "/assets/img/projects/wedding/logo.png",
         "url": null,
-        "tags": ["HTML", "JS", "PHP", "ASTO"],
+        "tags":  ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
         "level": 70,
         "imgs": [
             {

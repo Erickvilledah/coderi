@@ -1,0 +1,15 @@
+---
+import information from "../collections/information.json";
+
+const BASE = "";
+const whatsappNumber = information.phone;
+const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.`;
+---
+
+<a
+    href={whatsappLink}
+    target="_blank"
+    style="position:fixed;bottom:30px;left:30px;width:50px;z-index:9999 !important"
+>
+    <img src=`${BASE}/assets/img/wa.webp` alt="WhatsApp" title="WhatsApp" />
+</a>

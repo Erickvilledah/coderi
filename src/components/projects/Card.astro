@@ -11,7 +11,7 @@ const data = projects.find((item) => item.id === id);
 const BASE = "";
 ---
 
-<div class="card card-compact bg-base-100 shadow-xl">
+<div class="card card-compact bg-base-100 shadow-xl h-full">
   <figure onclick=`modal_${data.id}.showModal()`>
     <img
       src=`${BASE}${data.img}`
@@ -24,7 +24,7 @@ const BASE = "";
     <a href={data.url} target="_blank">
       <h2 class="card-title">{data.name}</h2>
     </a>
-    <p class="hidden md:block">{data.description}</p>
+    <p class="hidden md:block place-content-center">{data.description}</p>
     <div class="py-2">
       <p>
         Tags:
@@ -32,53 +32,28 @@ const BASE = "";
           data.tags.map((d) => {
             return (
               <>
-                {d === "HTML" && (
-                  <span class="badge badge-danger badge-outline text-xs mr-1">
+                {(d === "HTML" || d === "LARAVEL") && (
+                  <span class="badge badge-danger badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "CSS" && (
-                  <span class="badge badge-info badge-outline text-xs mr-1">
+                {(d === "CSS" || d === "TAILWIND" || d === "POSTGRESQL") && (
+                  <span class="badge badge-info badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "JS" && (
-                  <span class="badge badge-warning badge-outline text-xs mr-1">
+                {(d === "JS" || d === "ASTRO") && (
+                  <span class="badge badge-warning badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "PHP" && (
-                  <span class="badge badge-secondary badge-outline text-xs mr-1">
+                {(d === "PHP" || d === "BOOTSTRAP") && (
+                  <span class="badge badge-secondary badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "LARAVEL" && (
-                  <span class="badge badge-danger badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "VUE" && (
-                  <span class="badge badge-success badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "ASTRO" && (
-                  <span class="badge badge-warning badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "BOOTSTRAP" && (
-                  <span class="badge badge-secondary badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "TAILWIND" && (
-                  <span class="badge badge-info badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "POSTGRESQL" && (
-                  <span class="badge badge-info badge-outline text-xs mr-1">
+                {(d === "VUE" || d === "MYSQL" || d === "SQLITE") && (
+                  <span class="badge badge-success badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
@@ -128,53 +103,28 @@ const BASE = "";
           data.tags.map((d) => {
             return (
               <>
-                {d === "HTML" && (
-                  <span class="badge badge-danger badge-outline text-xs mr-1">
+                {(d === "HTML" || d === "LARAVEL") && (
+                  <span class="badge badge-danger badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "CSS" && (
-                  <span class="badge badge-info badge-outline text-xs mr-1">
+                {(d === "CSS" || d === "TAILWIND" || d === "POSTGRESQL") && (
+                  <span class="badge badge-info badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "JS" && (
-                  <span class="badge badge-warning badge-outline text-xs mr-1">
+                {(d === "JS" || d === "ASTRO") && (
+                  <span class="badge badge-warning badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "PHP" && (
-                  <span class="badge badge-secondary badge-outline text-xs mr-1">
+                {(d === "PHP" || d === "BOOTSTRAP") && (
+                  <span class="badge badge-secondary badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}
-                {d === "LARAVEL" && (
-                  <span class="badge badge-danger badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "VUE" && (
-                  <span class="badge badge-success badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "ASTRO" && (
-                  <span class="badge badge-warning badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "BOOTSTRAP" && (
-                  <span class="badge badge-secondary badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "TAILWIND" && (
-                  <span class="badge badge-info badge-outline text-xs mr-1">
-                    {d}
-                  </span>
-                )}
-                {d === "POSTGRESQL" && (
-                  <span class="badge badge-info badge-outline text-xs mr-1">
+                {(d === "VUE" || d === "MYSQL" || d === "SQLITE") && (
+                  <span class="badge badge-success badge-outline text-xs mr-1 mb-2">
                     {d}
                   </span>
                 )}

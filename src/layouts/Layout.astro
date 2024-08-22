@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Whatsapp from "../components/Whatsapp.astro";
 
 interface Props {
 	title: string;
@@ -8,7 +9,7 @@ interface Props {
 const { title } = Astro.props;
 const BASE = "";
 ---
-            
+
 <!doctype html>
 <html lang="en" data-theme="dark">
 	<head>
@@ -27,5 +28,6 @@ const BASE = "";
 		<Header />
 		<slot />
 		<Footer />
+		<Whatsapp />
 	</body>
 </html>

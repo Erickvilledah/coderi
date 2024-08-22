@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "url": null,
+        "url": "/assets/img/me/img-001.png",
         "text": true,
         "hero": {
             "name": "Desarrollador web apasionado por crear experiencias digitales.",
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "url": null,
+        "url": "/assets/img/me/img-002.png",
         "text": true,
         "hero": {
             "name": "CODERI</>",

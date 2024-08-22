@@ -4,6 +4,8 @@ import social from "../collections/social.json";
 import menu from "../collections/menu.json";
 
 const BASE = "";
+const whatsappNumber = information.phone;
+const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.`;
 ---
 
 <div class="grid place-items-center bg-base-300">
@@ -12,7 +14,7 @@ const BASE = "";
             <div>
                 <span class="mr-3"
                     >
-                    <a href="https://wa.me/5215631144157?text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s+sobre+tus+servicios.%20Gracias."
+                    <a href={whatsappLink}
                     target="_blank">
                         <i class="fa-brands fa-whatsapp mr-1"></i>
                         {information.phone}
