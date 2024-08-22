@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Servicio social (DICT)",
+        "location": "Coyoacan, Ciudad de México.",
+        "dateS": "Agosto del 2023",
+        "dateF": "Febrero del 2024"
+    },
+    {
+        "id": 1,
+        "name": "Consultoria (ALFRABER)",
+        "location": "Coyoacan, Ciudad de México.",
+        "dateS": "Marzo del 2024",
+        "dateF": "Actualidad"
+    }
+]

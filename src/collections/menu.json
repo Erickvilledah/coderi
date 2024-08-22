@@ -1,56 +1,56 @@
 [
 	{
 		"id": 1,
-		"name": "Home",
+		"name": "Inicio",
 		"url": "/",
 		"route": [
 			{
-				"name": "Home",
+				"name": "Inicio",
 				"url": "/"
 			}
 		]
 	},
 	{
 		"id": 2,
-		"name": "About",
+		"name": "Nosotros",
 		"url": "/about",
 		"route": [
 			{
-				"name": "Home",
+				"name": "Inicio",
 				"url": "/"
 			},
 			{
-				"name": "About",
+				"name": "Nosotros",
 				"url": "/about"
 			}
 		]
 	},
 	{
 		"id": 3,
-		"name": "Projects",
+		"name": "Proyectos",
 		"url": "/projects",
 		"route": [
 			{
-				"name": "Home",
+				"name": "Inicio",
 				"url": "/"
 			},
 			{
-				"name": "Projects",
+				"name": "Proyectos",
 				"url": "/projects"
 			}
 		]
 	},
 	{
 		"id": 4,
-		"name": "Contact",
+		"name": "Contacto",
 		"url": "/contact",
 		"route": [
 			{
-				"name": "Home",
+				"name": "Inicio",
 				"url": "/"
 			},
 			{
-				"name": "Contact",
+				"name": "Contacto",
 				"url": "/contact"
 			}
 		]

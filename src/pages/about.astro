@@ -6,6 +6,7 @@ import menu from "../collections/menu.json";
 import HeroAbout from "../components/HeroAbout.astro";
 import HeroEducation from "../components/education/Hero.astro";
 import HeroTechnologies from "../components/technologies/Hero.astro";
+import HeroExperience from "../components/HeroExperience.astro";
 
 const idPage = 2;
 const data = menu.find((item) => item.id === idPage);
@@ -16,6 +17,7 @@ const data = menu.find((item) => item.id === idPage);
 		<Breadcrumb id={idPage} />
 		<Title id={idPage} />
 		<HeroAbout id={idPage} />
+		<HeroExperience />
 		<HeroEducation />
 		<div id="tecnologies">
 			<HeroTechnologies id={idPage} />

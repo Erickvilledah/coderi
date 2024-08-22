@@ -1,0 +1,66 @@
+---
+import experience from "../collections/experience.json";
+---
+
+<div class="grid place-items-center bg-base-200">
+    <div class="hero bg-base-200 pb-20 md:w-4/5">
+        <div class="hero-content">
+            <div>
+                <h1 class="text-5xl font-bold mb-5">EXPERIENCIA LABORAL</h1>
+                <p class="py-4">
+                    Comencé mi trayectoria en desarrollo web durante mi servicio
+                    social, donde construí un sitio web estático para la
+                    <strong>
+                        División de Ingeniería en Ciencias de la Tierra (DICT)</strong
+                    >. Esta experiencia me permitió adquirir sólidas bases en
+                    HTML, CSS y JavaScript, así como familiarizarme con los
+                    procesos de despliegue en producción. <br />
+                </p>
+                <p class="py-4">
+                    Posteriormente, en una consultoria llamada <strong
+                        >ALFRABER</strong
+                    >, consolidé mis conocimientos y habilidades en desarrollo
+                    web, participando en diversos proyectos. Adquirí experiencia
+                    en el ciclo de vida completo del desarrollo de software,
+                    desde la concepción hasta el mantenimiento, y me familiaricé
+                    con las mejores prácticas de la industria.
+                </p>
+                <p>
+                    <div class="py-10">
+                        <ul class="timeline timeline-vertical">
+                            {
+                                experience.map((e) => {
+                                    return (
+                                        <li>
+                                            <div class="timeline-start">
+                                                {e.dateS}
+                                            </div>
+                                            <div class="timeline-middle">
+                                                <i class="fa-solid fa-circle-check" />
+                                            </div>
+                                            <div class="timeline-end timeline-box">
+                                                {e.name}
+                                            </div>
+                                            <hr />
+                                        </li>
+                                    );
+                                })
+                            }
+                        </ul>
+                    </div>
+                </p>
+                <p class="py-4">
+                    Actualmente me encuentro inmerso en un proceso de
+                    aprendizaje continuo, enfocado en consolidar mis habilidades
+                    como desarrollador full-stack. Combino rigurosamente cursos
+                    especializados en tecnologías de vanguardia con proyectos
+                    personales que me permiten poner en práctica los
+                    conocimientos adquiridos. A través de esta sinergia entre
+                    teoría y práctica, busco ampliar mi repertorio de
+                    herramientas y técnicas para enfrentar los desafíos cada vez
+                    más complejos del desarrollo web.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
