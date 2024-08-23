@@ -1,6 +1,6 @@
 ---
-import projects from "../../collections/projects.json";
-import Card from "./Card.astro";
+import projects from "../collections/projects.json";
+import CardProject from "./CardProject.astro";
 ---
 
 <div class="grid place-items-center bg-base-200">
@@ -18,22 +18,15 @@ import Card from "./Card.astro";
                     estás buscando un desarrollador web para tu próximo
                     proyecto, no dudes en contactarme.
                 </p>
-                <div class="grid md:grid-cols-4 gap-4">
+                <div class="gap-4">
                     {
                         projects.map((p) => {
-                            return (
-                                <div class="mb-5">
-                                    <Card id={p.id} />
-                                </div>
-                            );
+                            return <div class="py-5">
+                                <CardProject id={p.id}/>
+                            </div>;
                         })
                     }
                 </div>
-                <p class="mt-5 grid place-items-end">
-                    <a href="/projects">
-                        <button class="btn btn-primary">Más información</button>
-                    </a>
-                </p>
             </div>
         </div>
     </div>

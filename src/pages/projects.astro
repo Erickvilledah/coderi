@@ -3,7 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
 import Title from "../components/Title.astro";
 import menu from "../collections/menu.json";
-
+import HeroProject from "../components/HeroProject.astro";
+ 
 const idPage = 3;
 const data = menu.find((item) => item.id === idPage);
 ---
@@ -12,5 +13,6 @@ const data = menu.find((item) => item.id === idPage);
     <main>
         <Breadcrumb id={idPage} />
         <Title id={idPage} />
+        <HeroProject />
     </main>
 </Layout>

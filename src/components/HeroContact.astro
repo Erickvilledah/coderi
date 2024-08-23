@@ -6,10 +6,13 @@ const whatsappNumber = information.phone;
 const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.`;
 ---
 
-<div class="hero bg-base-200 py-20">
+<div class="hero bg-base-200 pt-20">
     <div class="hero-content flex-col lg:flex-row">
-        <img src="/assets/img/contact/img_001.png" class="rounded-lg max-w-60 md:max-w-md" />
-        <div>
+        <img
+            src="/assets/img/contact/img_001.png"
+            class="rounded-lg max-w-60 md:max-w-lg"
+        />
+        <div class="w-full">
             <h1 class="text-5xl font-bold">Contacto</h1>
             <p class="py-8">
                 Para solicitar información adicional o resolver cualquier duda,
@@ -19,7 +22,9 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                 ¡Estamos aquí para ayudarte!
             </p>
             <p class="py-2">
-                <i class="fa-solid fa-user mr-2"></i>Titular: <strong>{information.name}</strong>
+                <i class="fa-solid fa-user mr-2"></i>Titular: <strong
+                    >{information.name}</strong
+                >
             </p>
             <p class="py-2">
                 <i class="fa-solid fa-phone mr-2"></i>Teléfono:
@@ -28,7 +33,9 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                 </a>
             </p>
             <p class="py-2">
-                <i class="fa-solid fa-envelope mr-2"></i>Correo: <strong>{information.email}</strong>
+                <i class="fa-solid fa-envelope mr-2"></i>Correo: <strong
+                    >{information.email}</strong
+                >
             </p>
             <p class="py-2">
                 <i class="fa-solid fa-hashtag mr-2"></i>Redes sociales:
@@ -49,4 +56,45 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
             </ul>
         </div>
     </div>
+</div>
+<div class="bg-base-200 grid place-items-center py-10">
+    <p>
+        <p class="py-5 text-center">
+            ¿Qué te parece mi sitio web? ¡Califícame y ayúdame a crecer!
+            <br />
+            Al calificar mi sitio, me ayudas a crear una mejor experiencia para todos
+            mis usuarios.
+            <br />
+            <br />
+            <strong>¡Gracias por tu colaboración!</strong>
+        </p>
+        <div class="rating rating-lg">
+            <input
+                type="radio"
+                name="rating-8"
+                class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+                type="radio"
+                name="rating-8"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+            />
+            <input
+                type="radio"
+                name="rating-8"
+                class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+                type="radio"
+                name="rating-8"
+                class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+                type="radio"
+                name="rating-8"
+                class="mask mask-star-2 bg-orange-400"
+            />
+        </div>
+    </p>
 </div>
