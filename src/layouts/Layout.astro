@@ -19,13 +19,13 @@ const BASE = "";
 		<link rel="icon" href=`${BASE}/assets/img/logo-50x50.png` />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<script
-			src="https://kit.fontawesome.com/b2a78b0377.js"
-			crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/b2a78b0377.js" crossorigin="anonymous"></script>
 		<script src="../assets/js/main.js"></script>
+		<!-- <script src="../assets/js/particles.min.js"></script>
+		<script src="../assets/js/particulas.js"></script> -->
 	</head>
-	<body>
-		<Header />
+	<body id="particles-js">
+		<Header title={title} />
 		<slot />
 		<Footer />
 		<Whatsapp />

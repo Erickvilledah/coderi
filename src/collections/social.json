@@ -1,18 +1,18 @@
 [
 	{
-        "id": 1,
+		"id": 1,
 		"name": "Facebook",
 		"url": "/",
 		"class": "fa-brands fa-facebook mr-2"
 	},
 	{
-        "id": 2,
+		"id": 2,
 		"name": "Instagram",
 		"url": "/",
 		"class": "fa-brands fa-instagram mr-2"
 	},
 	{
-        "id": 3,
+		"id": 3,
 		"name": "Youtube",
 		"url": "/",
 		"class": "fa-brands fa-youtube mr-2"

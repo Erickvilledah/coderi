@@ -3,6 +3,10 @@ import information from "../collections/information.json";
 import social from "../collections/social.json";
 import menu from "../collections/menu.json";
 
+interface Props {
+	title: string;
+}
+const { title } = Astro.props;
 const BASE = "";
 const whatsappNumber = information.phone;
 const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.`;
@@ -70,6 +74,13 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                         <ul
                             class="menu bg-base-200 text-base-content min-h-full w-60 p-4"
                         >
+                            <li>
+                                <img 
+                                src=`${BASE}/assets/img/logo.png`
+                                alt={information.nameCompany}
+                                title={information.nameCompany}
+                                class="w-full p-1 my-10">
+                            </li>
                             <li class="mb-5">
                                 <a href=`${BASE}/`>
                                     <i class="fa-solid fa-house"></i>
@@ -79,8 +90,13 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                             {
                                 menu.map((m) => {
                                     return (
-                                        <li class="p-1">
-                                            <a href=`${BASE}${m.url}`> {m.name}</a>
+                                        <li class="py-2">
+                                            {title == m.name && (
+                                                <a class="active" href=`${BASE}${m.url}`><i class="fa-solid fa-code"></i>{m.name}</a>
+                                            )}
+                                            {title != m.name && (
+                                                <a href=`${BASE}${m.url}`><i class="fa-solid fa-code"></i>{m.name}</a>
+                                            )}
                                         </li>
                                     );
                                 })
@@ -111,7 +127,12 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                     menu.map((m) => {
                         return (
                             <li>
-                                <a href=`${BASE}${m.url}`> {m.name}</a>
+                                {title == m.name && (
+                                    <a class="active" href=`${BASE}${m.url}`> {m.name}</a>
+                                )}
+                                {title != m.name && (
+                                    <a href=`${BASE}${m.url}`> {m.name}</a>
+                                )}
                             </li>
                         );
                     })
@@ -120,14 +141,14 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
         </div>
         <div class="navbar-end">
             <label class="flex cursor-pointer gap-2">
-                <i class="fa-solid fa-sun mt-1"></i>
+                <i class="fa-solid fa-moon mt-1"></i>
                 <input
                     type="checkbox"
                     value="synthwave"
                     class="toggle theme-controller"
                     id="theme-toggle"
                 />
-                <i class="fa-solid fa-moon mt-1"></i>
+                <i class="fa-solid fa-sun mt-1"></i>
             </label>
         </div>
     </div>

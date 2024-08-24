@@ -5,7 +5,16 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/bhpbh/logo.jpg",
         "url": "https://bhporelbienestarhumano.org/",
-        "tags": ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "VUE", "LARAVEL", "POSTGRESQL"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "PHP",
+            "BOOTSTRAP",
+            "VUE",
+            "LARAVEL",
+            "POSTGRESQL"
+        ],
         "level": 100,
         "imgs": [
             {
@@ -36,7 +45,13 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/coderi/logo.png",
         "url": "http://www.dict.unam.mx/LIRFFF/",
-        "tags": ["HTML", "CSS", "JS", "ASTRO", "TAILWIND"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "ASTRO",
+            "TAILWIND"
+        ],
         "level": 100,
         "imgs": [
             {
@@ -67,7 +82,16 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/evosys/logo.png",
         "url": "https://www.evosys.com.mx/",
-        "tags": ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "VUE", "LARAVEL", "SQLITE"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "PHP",
+            "BOOTSTRAP",
+            "VUE",
+            "LARAVEL",
+            "SQLITE"
+        ],
         "level": 20,
         "imgs": [
             {
@@ -98,7 +122,17 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/karamelki/logo.png",
         "url": "https://karamelki.com.mx/",
-        "tags":  ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "PHP",
+            "BOOTSTRAP",
+            "TAILWIND",
+            "VUE",
+            "LARAVEL",
+            "POSTGRESQL"
+        ],
         "level": 70,
         "imgs": [
             {
@@ -129,7 +163,17 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/levitax/logo.png",
         "url": "https://levitax.mx/",
-        "tags": ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "PHP",
+            "BOOTSTRAP",
+            "TAILWIND",
+            "VUE",
+            "LARAVEL",
+            "POSTGRESQL"
+        ],
         "level": 50,
         "imgs": [
             {
@@ -160,7 +204,13 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/lirfff/logo.png",
         "url": "http://www.dict.unam.mx/LIRFFF/",
-        "tags": ["HTML", "CSS", "JS", "ASTRO", "TAILWIND"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "ASTRO",
+            "TAILWIND"
+        ],
         "level": 100,
         "imgs": [
             {
@@ -191,7 +241,17 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/tns/logo.png",
         "url": "https://tns-cy.com.mx/",
-        "tags":  ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "PHP",
+            "BOOTSTRAP",
+            "TAILWIND",
+            "VUE",
+            "LARAVEL",
+            "POSTGRESQL"
+        ],
         "level": 70,
         "imgs": [
             {
@@ -232,7 +292,17 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
         "img": "/assets/img/projects/wedding/logo.png",
         "url": null,
-        "tags":  ["HTML", "CSS", "JS", "PHP", "BOOTSTRAP", "TAILWIND", "VUE", "LARAVEL", "POSTGRESQL"],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "PHP",
+            "BOOTSTRAP",
+            "TAILWIND",
+            "VUE",
+            "LARAVEL",
+            "POSTGRESQL"
+        ],
         "level": 70,
         "imgs": [
             {
