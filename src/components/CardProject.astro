@@ -33,9 +33,11 @@ const BASE = "";
         </span>
     </figure>
     <div class="md:card-body p-3 w-100 lg:w-80">
-        <h2 class="card-title"><i class="fa-solid fa-diagram-project"></i>{data.name}</h2>
+        <h2 class="card-title">
+            <i class="fa-solid fa-diagram-project"></i>{data.name}
+        </h2>
         <p class="py-3 text-justify">{data.description}</p>
-        <br>
+        <br />
         <span>
             Tags:
             {
@@ -76,21 +78,20 @@ const BASE = "";
                 })
             }
         </span>
-        <br><br>
+        <br /><br />
         <div class="card-actions justify-end py-3">
-            <button class="btn btn-active btn-ghost" onclick=`modal_project_${data.id}.showModal()`>
+            <button
+                class="btn btn-active btn-ghost"
+                onclick=`modal_project_${data.id}.showModal()`
+            >
                 <i class="fa-regular fa-image"></i>
                 Ver fotos del sitio
             </button>
             <a href={data.url} target="_blank">
                 <button class="btn btn-primary">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    {data.url != null && (
-                        <span>Visitar sitio</span>
-                    )}
-                    {data.url == null && (
-                        <span>Sitio privado</span>
-                    )}
+                    {data.url != null && <span>Visitar sitio</span>}
+                    {data.url == null && <span>Sitio privado</span>}
                 </button>
             </a>
         </div>
@@ -108,7 +109,9 @@ const BASE = "";
                 </button>
             </form>
         </div>
-        <h2 class="card-title"><i class="fa-solid fa-diagram-project"></i>{data.name}</h2>
+        <h2 class="card-title">
+            <i class="fa-solid fa-diagram-project"></i>{data.name}
+        </h2>
         <p class="py-3">
             <Carrusel id={id} />
         </p>

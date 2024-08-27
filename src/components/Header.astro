@@ -20,12 +20,12 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                     >
                     <a href={whatsappLink}
                     target="_blank">
-                        <i class="fa-brands fa-whatsapp mr-1"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
                         {information.phone}
                     </a>
                 </span>
                 <span
-                    ><i class="fa-regular fa-envelope mr-1"></i>
+                    ><i class="fa-regular fa-envelope"></i>
                     {information.email}
                     </span>
             </div>
@@ -107,14 +107,14 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
             </div>
             <a class="btn btn-ghost text-xl" href=`${BASE}/`>
                 <img
-                    class="hidden sm:block"
+                    class="hidden sm:block animate-jump-in animate-once"
                     src=`${BASE}/assets/img/logo.png`
                     alt={information.nameCompany}
                     title={information.nameCompany}
                     style="width: 110px;"
                 />
                 <img
-                    class="block sm:hidden"
+                    class="block sm:hidden animate-jump-in animate-once"
                     src=`${BASE}/assets/img/logo-50x50.png`
                     alt={information.nameCompany}
                     title={information.nameCompany}

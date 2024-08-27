@@ -4,16 +4,19 @@ import social from "../collections/social.json";
 
 const whatsappNumber = information.phone;
 const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.`;
+const BASE = "";
 ---
 
 <div class="hero bg-base-200 pt-20">
     <div class="hero-content flex-col lg:flex-row">
         <img
             src="/assets/img/contact/img_001.png"
-            class="rounded-lg max-w-60 md:max-w-lg"
+            class="rounded-lg max-w-60 md:max-w-lg mb-5"
         />
         <div class="w-full">
-            <h1 class="text-5xl font-bold">Contacto</h1>
+            <h1 class="mb-10 text-4xl font-extrabold text-gray-900 animate-fade-in-down md:text-6xl">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700">CONTACTO</span>
+            </h1>
             <p class="py-8 text-justify">
                 Para solicitar información adicional o resolver cualquier duda,
                 por favor completa el siguiente formulario de contacto. Nuestro
@@ -27,7 +30,7 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                 >
             </p>
             <p class="py-2">
-                <i class="fa-solid fa-phone mr-2"></i>Teléfono:
+                <i class="fa-brands fa-whatsapp mr-2"></i>Teléfono:
                 <a href={whatsappLink} target="_blank">
                     <strong>{information.phone}</strong>
                 </a>
@@ -95,6 +98,21 @@ const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text
                 name="rating-8"
                 class="mask mask-star-2 bg-orange-400"
             />
+        </div>
+        <a class="py-10" href=`#${BASE}_send`>
+            <button class="btn btn-primary"> Enviar </button>
+        </a>
+        <div class="modal" role="dialog" id=`${BASE}_send`>
+            <div class="modal-box">
+                <h3 class="text-lg font-bold">¡GRACIAS!</h3>
+                <p class="py-4">
+                    Muchas gracias por tu valiosa opinión. Tu calificación me
+                    será de gran ayuda.
+                </p>
+                <div class="modal-action">
+                    <a href="#" class="btn">Cerrar</a>
+                </div>
+            </div>
         </div>
     </p>
 </div>

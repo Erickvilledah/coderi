@@ -19,17 +19,23 @@ const data = education.find((item) => item.id === id);
         <p class="md:px-10 py-5 text-justify">{data.description}</p>
         <ul class="md:px-10">
             <li>
-                <i class="fa-solid fa-location-dot mb-4 mr-2"></i>Ubicación: <strong>{data.location}</strong>
+                <i class="fa-solid fa-location-dot mb-4 mr-2"></i>Ubicación: <strong
+                    >{data.location}</strong
+                >
             </li>
             <li>
-                <i class="fa-solid fa-book mb-4 mr-2"></i>Fecha de ingreso: {data.dateS}
+                <i class="fa-solid fa-book mb-4 mr-2"></i>Fecha de ingreso: {
+                    data.dateS
+                }
             </li>
             <li>
-                <i class="fa-solid fa-graduation-cap mr-2"></i>Fecha de egreso: {data.dateF}
+                <i class="fa-solid fa-graduation-cap mr-2"></i>Fecha de egreso: {
+                    data.dateF
+                }
             </li>
         </ul>
         <div class="my-5 md:m-10 grid place-items-center">
-            <img src={data.img} alt={data.name} title={data.name}>
+            <img src={data.img} alt={data.name} title={data.name} />
         </div>
     </div>
 </div>

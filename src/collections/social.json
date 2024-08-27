@@ -16,5 +16,11 @@
 		"name": "Youtube",
 		"url": "/",
 		"class": "fa-brands fa-youtube mr-2"
+	},
+	{
+		"id": 4,
+		"name": "Whatsapp",
+		"url": "/",
+		"class": "fa-brands fa-whatsapp mr-2"
 	}
 ]

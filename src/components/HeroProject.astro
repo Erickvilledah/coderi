@@ -7,7 +7,9 @@ import CardProject from "./CardProject.astro";
     <div class="hero bg-base-200 py-20 md:w-4/5">
         <div class="hero-content">
             <div class="w-100">
-                <h1 class="text-5xl font-bold mb-5">MIS PROYECTOS</h1>
+                <h1 class="mb-10 text-4xl font-extrabold text-gray-900 animate-fade-in-down md:text-6xl">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700">MIS PROYECTOS</span>
+                </h1>
                 <p class="py-6 mb-5 text-justify">
                     Aquí encontrarás una selección de los proyectos que he
                     desarrollado a lo largo de mi carrera. Cada proyecto es una
@@ -21,9 +23,11 @@ import CardProject from "./CardProject.astro";
                 <div class="gap-4">
                     {
                         projects.map((p) => {
-                            return <div class="py-5">
-                                <CardProject id={p.id}/>
-                            </div>;
+                            return (
+                                <div class="py-5">
+                                    <CardProject id={p.id} />
+                                </div>
+                            );
                         })
                     }
                 </div>
