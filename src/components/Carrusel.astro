@@ -16,27 +16,32 @@ const BASE = "";
                             <div class="hero-content flex-col lg:flex-row-reverse">
                                 <img
                                     src=`${BASE}${c.url}`
-                                    class="max-h-40 p-0 md:max-h-96 rounded-lg shadow-2xl"
+                                    class="hidden lg:block p-0 md:max-h-96 rounded-lg shadow-2xl animate-jump-in animate-delay-500 animate-once"
                                     alt="Contacto"
                                     title="Contacto"
                                 />
-                                <div class="text-white hidden md:block">
-                                    <h1 class="text-5xl font-bold">
+                                <div class="text-white">
+                                    <h1 class="hidden md:block text-5xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-jump-in animate-delay-500 animate-once">
                                         {c.hero.name}
                                     </h1>
-                                    <p class="py-6">{c.hero.description}</p>
-                                    <a href=`${BASE}${c.hero.url}`>
-                                        <button class="btn btn-primary">
-                                           <i class="fa-solid fa-caret-down"></i>Más información
+                                    <h1 class="md:hidden pb-5 text-center text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-jump-in animate-delay-500 animate-once">
+                                        <span class="text-lg">CODERI&lt;/&gt;</span>
+                                        <br>
+                                        Codificando el futuro, ahora.
+                                    </h1>
+                                    <p class="py-8 hidden md:block animate-jump-in animate-delay-500 animate-once">{c.hero.description}</p>
+                                        <button class="btn btn-primary hidden md:block animate-jump-in animate-delay-500 animate-once">
+                                            <a href=`${BASE}${c.hero.url}`>
+                                           <i class="fa-solid fa-caret-down mr-2"></i>Más información
+                                           </a>
                                         </button>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     )}
                     <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        {c.id <= 1 ? <a href=`#carrusel_${total}` class="btn btn-circle"> ❮ </a> : <a href=`#carrusel_${c.id - 1}` class="btn btn-circle"> ❮ </a>}
-                        {c.id >= total ? <a href="#carrusel_1" class="btn btn-circle"> ❯ </a> : <a href=`#carrusel_${c.id + 1}` class="btn btn-circle"> ❯ </a>}
+                        {c.id <= 1 ? <a href=`#carrusel_${total}` class="btn btn-sm btn-circle opacity-75 hover:opacity-100 md:btn-md"> ❮ </a> : <a href=`#carrusel_${c.id - 1}` class="btn btn-sm btn-circle opacity-75 hover:opacity-100 md:btn-md"> ❮ </a>}
+                        {c.id >= total ? <a href="#carrusel_1" class="btn btn-sm btn-circle opacity-75 hover:opacity-100 md:btn-md"> ❯ </a> : <a href=`#carrusel_${c.id + 1}` class="btn btn-sm btn-circle opacity-75 hover:opacity-100 md:btn-md"> ❯ </a>}
                     </div>
                 </div>
             );
