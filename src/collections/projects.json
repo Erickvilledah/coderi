@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "BHPBH",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de BHPBH (Baltazar Herrera por el Bienestar Humano A.C.), es una plataforma digital diseñada para facilitar el acceso a viviendas sociales y promover la filantropía. A través de un sistema CRM intuitivo, los administradores pueden gestionar las publicaciones relacionadas con cursos, convocatorias y proyectos, manteniendo a la comunidad informada sobre las oportunidades disponibles. Además, la plataforma cuenta con un sistema de donaciones seguro y transparente, respaldado por Stripe, que permite a los usuarios contribuir a causas sociales de manera fácil y segura.",
         "img": "/assets/img/projects/bhpbh/logo.jpg",
         "url": "https://bhporelbienestarhumano.org/",
         "tags": [
@@ -36,13 +36,33 @@
                 "id": 4,
                 "name": "",
                 "img": "/assets/img/projects/bhpbh/img_004.png"
+            },
+            {
+                "id": 5,
+                "name": "",
+                "img": "/assets/img/projects/bhpbh/img_005.png"
+            },
+            {
+                "id": 6,
+                "name": "",
+                "img": "/assets/img/projects/bhpbh/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/bhpbh/img_007.png"
+            },
+            {
+                "id": 8,
+                "name": "",
+                "img": "/assets/img/projects/bhpbh/img_008.png"
             }
         ]
     },
     {
         "id": 2,
         "name": "CODERI</>",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de CODERI</>, es un portafolio digital en constante evolución que muestra una selección de proyectos desarrollados. Este sitio web personal ofrece una visión general de mis habilidades y experiencia en el campo del desarrollo web. A través de CODERI</>, los visitantes pueden explorar mis proyectos anteriores y conocer más sobre mi trayectoria profesional.",
         "img": "/assets/img/projects/coderi/logo.png",
         "url": "http://www.dict.unam.mx/LIRFFF/",
         "tags": [
@@ -73,13 +93,28 @@
                 "id": 4,
                 "name": "",
                 "img": "/assets/img/projects/lirfff/img_004.png"
+            },
+            {
+                "id": 5,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_005.png"
+            },
+            {
+                "id": 6,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_007.png"
             }
         ]
     },
     {
         "id": 3,
         "name": "EVOSYS",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de EVOSYS (Evolution System) fue creado con el objetivo de presentar de manera clara y concisa las funcionalidades de nuestra plataforma de gestión empresarial. A través de una interfaz intuitiva, los usuarios pueden explorar las diferentes soluciones que ofrecemos, desde ERP hasta herramientas de análisis de datos. La plataforma web también cuenta con un área de clientes donde pueden acceder a recursos, documentación y soporte técnico.",
         "img": "/assets/img/projects/evosys/logo.png",
         "url": "https://www.evosys.com.mx/",
         "tags": [
@@ -113,13 +148,33 @@
                 "id": 4,
                 "name": "",
                 "img": "/assets/img/projects/evosys/img_004.png"
+            },
+            {
+                "id": 5,
+                "name": "",
+                "img": "/assets/img/projects/evosys/img_005.png"
+            },
+            {
+                "id": 6,
+                "name": "",
+                "img": "/assets/img/projects/evosys/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/evosys/img_007.png"
+            },
+            {
+                "id": 8,
+                "name": "",
+                "img": "/assets/img/projects/evosys/img_008.png"
             }
         ]
     },
     {
         "id": 4,
         "name": "KARAMELKI",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de KARAMELKI es una tienda en línea dinámica que evolucionó de la moda a la joyería. Su sistema innovador permite a los vendedores cargar sus productos directamente desde Telegram, agilizando el proceso de publicación. Con un CRM integrado, los administradores pueden gestionar eficientemente su catálogo, realizar un seguimiento de las ventas y mantener una relación cercana con sus clientes. KARAMELKI ofrece una experiencia de compra personalizada y una interfaz de usuario intuitiva.",
         "img": "/assets/img/projects/karamelki/logo.png",
         "url": "https://karamelki.com.mx/",
         "tags": [
@@ -154,13 +209,43 @@
                 "id": 4,
                 "name": "",
                 "img": "/assets/img/projects/karamelki/img_004.png"
+            },
+            {
+                "id": 5,
+                "name": "",
+                "img": "/assets/img/projects/karamelki/img_005.png"
+            },
+            {
+                "id": 6,
+                "name": "",
+                "img": "/assets/img/projects/karamelki/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/karamelki/img_007.png"
+            },
+            {
+                "id": 8,
+                "name": "",
+                "img": "/assets/img/projects/karamelki/img_008.png"
+            },
+            {
+                "id": 9,
+                "name": "",
+                "img": "/assets/img/projects/karamelki/img_009.png"
+            },
+            {
+                "id": 10,
+                "name": "",
+                "img": "/assets/img/projects/karamelki/img_010.png"
             }
         ]
     },
     {
         "id": 5,
         "name": "LEVITAX",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de LEVITAX es una plataforma integral de servicios contables que simplifica la gestión de facturas y ofrece asesoría especializada. La plataforma cuenta con una interfaz pública intuitiva que presenta los servicios disponibles y una sección administrativa robusta para gestionar las facturas emitidas y los datos de los clientes. Con LEVITAX, los usuarios pueden optimizar sus procesos contables y garantizar el cumplimiento de las normativas fiscales.",
         "img": "/assets/img/projects/levitax/logo.png",
         "url": "https://levitax.mx/",
         "tags": [
@@ -201,7 +286,7 @@
     {
         "id": 6,
         "name": "LIRFFF",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de LIRFFF (Laboratorio de Interacción Roca-Fluido y Fluido-Fluido), es un recurso valioso para la comunidad científica y académica. Desarrollado para la coordinadora del Departamento de Ingeniería en Ciencias de la Tierra (DICT), este portal ofrece una amplia gama de materiales de referencia, como artículos, datos de investigación y perfiles de los colaboradores del laboratorio. Su objetivo es fomentar la colaboración y el intercambio de conocimientos en el campo de la geología.",
         "img": "/assets/img/projects/lirfff/logo.png",
         "url": "http://www.dict.unam.mx/LIRFFF/",
         "tags": [
@@ -232,13 +317,43 @@
                 "id": 4,
                 "name": "",
                 "img": "/assets/img/projects/lirfff/img_004.png"
+            },
+            {
+                "id": 5,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_005.png"
+            },
+            {
+                "id": 6,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_007.png"
+            },
+            {
+                "id": 8,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_008.png"
+            },
+            {
+                "id": 9,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_009.png"
+            },
+            {
+                "id": 10,
+                "name": "",
+                "img": "/assets/img/projects/lirfff/img_010.png"
             }
         ]
     },
     {
         "id": 7,
         "name": "TNS",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de TNS (Technology and Networks Solutions), es una plataforma de comercio electrónico integral diseñada para satisfacer las necesidades del sector de seguridad. Con un robusto sistema CRM, los administradores tienen un control total sobre su inventario, desde productos físicos hasta soluciones de seguridad cibernética. La plataforma permite gestionar de manera eficiente las ventas, realizar un seguimiento detallado de los clientes y optimizar las operaciones comerciales. Además, TNS ofrece una experiencia de compra intuitiva y segura para los usuarios finales.",
         "img": "/assets/img/projects/tns/logo.png",
         "url": "https://tns-cy.com.mx/",
         "tags": [
@@ -283,13 +398,43 @@
                 "id": 6,
                 "name": "",
                 "img": "/assets/img/projects/tns/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/tns/img_007.png"
+            },
+            {
+                "id": 8,
+                "name": "",
+                "img": "/assets/img/projects/tns/img_008.png"
+            },
+            {
+                "id": 9,
+                "name": "",
+                "img": "/assets/img/projects/tns/img_009.png"
+            },
+            {
+                "id": 10,
+                "name": "",
+                "img": "/assets/img/projects/tns/img_010.png"
+            },
+            {
+                "id": 11,
+                "name": "",
+                "img": "/assets/img/projects/tns/img_011.png"
+            },
+            {
+                "id": 12,
+                "name": "",
+                "img": "/assets/img/projects/tns/img_012.png"
             }
         ]
     },
     {
         "id": 8,
         "name": "WEDDING",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius numquam quis, eveniet modi quidem explicabo corrupti nobis dicta natus quia labore dolor distinctio incidunt similique expedita eaque omnis at non.",
+        "description": "El proyecto de WEDDING, es un sitio web para una boda, el cual fue desarrollado como una solución integral para gestionar la logística y la comunicación con los invitados. La plataforma cuenta con un sistema de gestión de relaciones con los clientes (CRM) personalizado para llevar un registro detallado de los asistentes, así como un formulario de RSVP intuitivo. Además, incluí una galería de fotos, un mapa del lugar de la celebración y una sección de preguntas frecuentes para brindar a los invitados toda la información necesaria.",
         "img": "/assets/img/projects/wedding/logo.png",
         "url": null,
         "tags": [
@@ -324,6 +469,31 @@
                 "id": 4,
                 "name": "",
                 "img": "/assets/img/projects/wedding/img_004.png"
+            },
+            {
+                "id": 5,
+                "name": "",
+                "img": "/assets/img/projects/wedding/img_005.png"
+            },
+            {
+                "id": 6,
+                "name": "",
+                "img": "/assets/img/projects/wedding/img_006.png"
+            },
+            {
+                "id": 7,
+                "name": "",
+                "img": "/assets/img/projects/wedding/img_007.png"
+            },
+            {
+                "id": 8,
+                "name": "",
+                "img": "/assets/img/projects/wedding/img_008.png"
+            },
+            {
+                "id": 9,
+                "name": "",
+                "img": "/assets/img/projects/wedding/img_009.png"
             }
         ]
     }
