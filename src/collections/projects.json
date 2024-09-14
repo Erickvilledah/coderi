@@ -64,7 +64,7 @@
         "name": "CODERI</>",
         "description": "El proyecto de CODERI</>, es un portafolio digital en constante evolución que muestra una selección de proyectos desarrollados. Este sitio web personal ofrece una visión general de mis habilidades y experiencia en el campo del desarrollo web. A través de CODERI</>, los visitantes pueden explorar mis proyectos anteriores y conocer más sobre mi trayectoria profesional.",
         "img": "/assets/img/projects/coderi/logo.png",
-        "url": "http://www.dict.unam.mx/LIRFFF/",
+        "url": "https://coderick.netlify.app/",
         "tags": [
             "HTML",
             "CSS",
